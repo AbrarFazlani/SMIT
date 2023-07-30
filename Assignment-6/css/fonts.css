@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('../fonts/poppinsmedium/poppins-medium-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsmedium/poppins-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppinsextrabold';
+    src: url('../fonts/poppinsextrabold/poppins-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsextrabold/poppins-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsblack';
+    src: url('../fonts/poppinsblack/poppins-black-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsblack/poppins-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('../fonts/poppinssemibold/poppins-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/poppinssemibold/poppins-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('../fonts/poppinsbold/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsbold/poppins-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('../fonts/poppinsregular/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsregular/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('../fonts/poppinslight/poppins-light-webfont.woff2') format('woff2'),
+         url('../fonts/poppinslight/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsbold_italic';
+    src: url('../fonts/poppinsbolditalic/poppins-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/poppinsbolditalic/poppins-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
