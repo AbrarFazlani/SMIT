@@ -1,0 +1,655 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header-wrapper{
+    font-family: "Apercu-Pro-Light";
+    color: #fff !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    padding: 0px 20px !important;
+}
+
+.black-wrapper{
+    background-color: #000;
+}
+
+.Header-Btn a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 20px;
+    border-radius: 35px;
+}
+
+.Header-Btn-Franchise{
+    border:1px solid #fff;
+}
+
+.Header-Btn-Order{
+    background-color: #ed1c24;
+}
+
+.Header-Btn-Icon{
+background: #fff;
+border-radius: 50px;
+padding: 7px 9px;
+margin-left: 10px;
+}
+
+.Header-Btn-Icon i{ 
+    color: #ed1c24;
+}
+
+#navbarNav .Header-Btn{
+    padding: 0px 10px;
+}
+
+#navbarNav .Header-Btn:last-child{
+    padding-right: 0px !important;
+}
+
+.Slider-Image{
+    max-width: 100%;
+}
+
+
+.Brand-Wrapper, .Restuarant-Franchise-Wrapper, .express-franchise-Wrapper, .Village-Franchise-Wrapper{
+    padding: 100px 0px;
+}
+
+.Brand-Detail-Image{
+    background-color: #fff;
+    padding: 30px 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.Brand-Detail-Btn {
+    padding: 50px 0px;
+text-align: center;
+}
+
+.Brand-Detail-Btn a{
+    font-family: 'Apercu-Pro-Light';
+    font-size: 14px !important;
+text-decoration: none !important;
+color: #fff !important;
+padding: 15px 40px;
+border-radius: 35px;
+border: 1px solid;
+}
+
+.Brand-Text-Heading{
+font-family: 'Apercu-Pro-Light';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 8px;
+}
+
+.Branding-Font{
+    font-family: 'futurak';
+}
+
+.Brand-Text-branding{
+    font-style: normal;
+font-weight: 400;
+font-size: 52px;
+line-height: 62px;
+color: #FFFFFF;
+}
+
+.Brand-Text-Paragraph{
+    font-family: 'Apercu-Pro-Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 40px;
+text-align: center;
+}
+
+body{
+    background-color: #000;
+}
+
+.grey-wrapper{
+    background: rgba(255, 255, 255, 0.06);
+}
+
+.Restuarant-Franchise-Text-Heading{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Butler_Light';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+
+.Restuarant-Franchise-Text-Paragraph{
+    font-family: 'Apercu-Pro-Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 48px;
+text-align: center;
+}
+
+.Restaurant-Franchise-small-text {
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .Restaurant-Franchise-Box h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-family: 'Apercu-Pro-Light';
+  }
+
+  .Restaurant-Franchise-Box h3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .Restaurant-Franchise-Box p {
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+  }
+
+  .Restaurant-Franchise-Box p a{
+    font-family: 'Apercu-Pro-Light';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.7);
+  }
+
+  .Get-Direction{
+    font-family: 'Apercu-Pro-Light';
+    font-size: 14px !important;
+text-decoration: none !important;
+color: #fff !important;
+padding: 15px 15px;
+border-radius: 35px;
+border: 1px solid;
+  }
+
+  .Get-Direction-Btn{
+    padding: 60px 0px;
+  }
+
+  .Get-Direction-Icon{
+    background: #fff;
+border-radius: 50px;
+padding: 7px 9px;
+margin-left: 10px;
+  }
+
+  .Get-Direction-Icon i {
+    color: #ed1c24;
+  }
+
+
+.express-franchise-Text-Heading{
+    text-align: center;
+margin-bottom: 8px;
+font-family: 'Butler_Light';
+font-style: normal;
+font-size: 48px;
+line-height: 60px;
+color: #FFFFFF;
+margin-bottom: 8px;
+  }
+
+  .express-franchise-card{
+    text-align: center;
+  }
+
+  .express-franchise-image{
+    max-width: 100%;
+  }
+
+  .express-Franchise-small-text{
+    font-family: 'Apercu-Pro-Light';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.48em;
+text-transform: uppercase;
+color: #ED1C24;
+text-align: center;
+margin-bottom: 8px;
+display: block;
+margin-top: 24px;
+  }
+
+  .express-franchise-card h3{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 18px;
+    font-family: 'Apercu-Pro-Light';
+  }
+
+  .express-franchise-card h3 span{
+    font-family: 'futurak';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #FFFFFF;
+  }
+
+  .express-franchise-card p {
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+  }
+
+  .express-franchise-card p a{
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+  }
+  
+  .Get-Direction-Btn-Express{
+    padding: 40px 0px !important;
+  }
+
+  .Village-Franchise-Wrapper{
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .Village-Franchise-Text{
+    text-align: center;
+  }
+
+  .Village-Franchise-Text-Heading{
+    text-align: center;
+    margin-bottom: 8px;
+    font-family: 'Butler_Light';
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+
+  .Village-Franchise-Image{
+    max-width: 100%;
+  }
+
+  .Village-Franchise-Box-Small-Text{
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .Village-Franchise-Box h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    font-family: 'Apercu-Pro-Light';
+  }
+
+  .Village-Franchise-Box h3 span{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .Village-Franchise-Box p {
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+  }
+
+  .Village-Franchise-Box p a{
+    font-family: 'Apercu-Pro-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .Village-Franchise-Wrapper div.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .village-col-first{
+    padding-left: 0px !important;
+  }
+
+  .Express-Opening-Franchise-Text-Heading
+    {
+        text-align: center;
+        margin-bottom: 8px;
+        font-family: 'Butler_Light';
+        font-style: normal;
+        font-size: 48px;
+        line-height: 60px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+      }
+  
+      .Express-Opening-Franchise-Text-Heading small {
+        font-style: normal;
+        font-size: 26px;
+        line-height: 31px;
+        color: #FFFFFF;
+      }
+
+      .Express-Opening-Franchise-Box{
+        background: #FFFFFF;
+border-radius: 4px;
+text-align: center;
+padding: 25px 24px;
+margin: auto;
+  margin-bottom: auto;
+margin-bottom: 32px;
+height: 250px;
+      }
+
+      .Opening-Map{
+        margin-bottom: 16px;
+    }
+
+    .Express-Opening-Franchise-Box small{
+        font-family: 'Butler_Light';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.48em;
+        text-transform: uppercase;
+        color: #ED1C24;
+        margin-bottom: 8px;
+        display: inline-block;
+      }
+
+      .Express-Opening-Franchise-Box h4 {
+        font-family: 'futurak';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        text-align: center;
+        color: #000000;
+      }
+
+      .Express-Opening-Franchise-Box p {
+        font-family: 'futurak';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 29px;
+        text-align: center;
+        color: #000000;
+      }
+
+      .Express-Opening-Franchise-Box > h4 > span {
+        font-weight: 600;
+        margin-right: 8px;
+        font-size: 24px;
+      }
+
+      .social-feed-image{
+        max-width: 100%;
+      }
+
+      .social-feed-wrapper div.row{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+      }
+
+      .Footer{
+        padding: 50px 0px;
+      }
+
+      .Footer-Detail-Box p {
+        margin: 0px !important;
+        padding-bottom: 24px;
+        padding-right: 0px;
+        text-align: left;
+        font-family: 'Apercu-Pro-Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      ul.info-usefull-links li {
+        display: inline-block;
+        margin-right: 10px;
+      }
+
+      ul.info-usefull-links li a{
+        font-family: 'Apercu-Pro-Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6) !important;
+      }
+
+      .Footer-Detail-Box .footer_logo {
+        margin: 0px !important;
+        width: 140px !important;
+        padding-bottom: 24px;
+      }
+
+    .Footer-SiteLink-Heading, .Footer-Contact-Heading, .Footer-Follow-Heading{
+        position: relative;
+        padding-bottom: 24px;
+      }
+
+      .Footer-SiteLink-Heading h3, .Footer-Contact-Heading h3, .Footer-Follow-Heading h3{
+        margin-bottom: 0px !important;
+        font-family: 'Butler_Light';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+      }
+
+      .Footer-SiteLink-ul, .Footer-Contact-ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px !important;
+        margin: 0px !important;
+      }
+
+      .Footer-SiteLink-ul li,.Footer-Contact-ul li {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 0px 5px;
+        padding-bottom: 16px;
+      }
+
+      .Footer-SiteLink-ul li a,.Footer-Contact-ul li a {
+        font-family: 'Apercu-Pro-Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.7) !important;
+      }
+
+      .Footer-Follow-Links{
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+      }
+
+      .Footer-Follow-Links  a {
+        display: flex;
+        align-items: center;
+        margin-right: 8px;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: #ED1C24;
+        color: #fff;
+        border-radius: 50px;
+      }
+
+      .Footer-Follow-Links  a i {
+        color: #ffffff;
+        font-size: 17px;
+      }
+
+    .Footer-Follow-Download ul li {
+        margin-bottom: 13px;
+      }
+
+      .copyright-wrapper{
+        color: rgba(255, 255, 255, 0.6);
+border-top: 1px solid rgba(255, 255, 255, 0.08);
+padding: 10px 0px;
+      }
+
+      .copyright-text {
+        font-family: 'Apercu-Pro-Light';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.7);
+      }
+
+      .copyright-text a{
+        text-decoration: none;
+      }
+
+      .text-right {
+        text-align: right !important;
+      }
