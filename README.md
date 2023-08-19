@@ -6,3 +6,4 @@ Chess Game Board: https://abrarfazlani.netlify.app/chess-game-board/ <br/>
 Registration Form: https://abrarfazlani.netlify.app/registration-form/ <br/>
 Youtube's Clone: https://abrarfazlani.netlify.app/youtube-clone/ <br/>
 Saylani Courses: https://abrarfazlani.netlify.app/saylani-courses/ <br/>
+Salt'n pepper Website https://abrarfazlani.netlify.app/saltnpepper-website/
